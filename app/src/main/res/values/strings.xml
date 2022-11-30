@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ReciApp</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="jenis_hidangan">
+        <item>Makanan</item>
+        <item>Minuman</item>
+    </string-array>
+</resources>
