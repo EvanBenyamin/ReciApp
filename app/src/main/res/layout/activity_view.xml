@@ -45,9 +45,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Nama Hidangan"
-                android:textSize="20dp"
+                android:textSize="23dp"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/blue"/>
             <TextView
                 android:id="@+id/txNama_View"
                 android:layout_width="match_parent"
@@ -55,6 +55,7 @@
                 android:inputType="textCapSentences"
                 android:layout_marginVertical="5dp"
                 android:textStyle="bold"
+                android:textSize="18dp"
                 android:hint="Nama Hidangan"
                 android:textColor="@android:color/white"/>
 
@@ -62,15 +63,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Jenis Hidangan"
-                android:textSize="20dp"
+                android:textSize="23dp"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/blue"/>
             <TextView
                 android:id="@+id/txJenisHidangan_View"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textCapSentences"
                 android:layout_marginVertical="5dp"
+                android:textSize="18dp"
                 android:textStyle="bold"
                 android:hint="Jenis Hidangan"
                 android:textColor="@android:color/white"/>
@@ -79,17 +81,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Alat dan Bahan"
-                android:textSize="20dp"
+                android:textSize="23dp"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/blue"/>
 
             <TextView
                 android:id="@+id/txAlamat_View"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Alat dan Bahan"
-                android:inputType="textCapSentences"
+                android:inputType="textMultiLine"
                 android:layout_marginVertical="5dp"
+                android:textSize="18dp"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"/>
 
@@ -97,17 +100,21 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cara Membuat"
-                android:textSize="20dp"
+                android:layout_marginTop="20sp"
+                android:textSize="23dp"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/blue"/>
             <TextView
                 android:id="@+id/tx_Langkah_View"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Cara Membuat"
+                android:textSize="18dp"
                 android:inputType="textMultiLine"
+                android:layout_marginBottom="25dp"
+                android:textStyle="bold"
                 android:layout_marginVertical="5dp"
-                android:textColor="@android:color/white"/>
+                android:textColor="@color/white"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

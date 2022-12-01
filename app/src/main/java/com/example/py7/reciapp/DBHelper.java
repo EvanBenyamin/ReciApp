@@ -9,12 +9,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DBHelper extends SQLiteOpenHelper {
 
     public static final String database_name = "db_reciapp";
-    public static final String table_name = "tabel_resep";
+    public static final String table_name = "tabel_hidangan";
 
     public static final String row_id = "_id";
     public static final String row_nama = "Nama";
-    public static final String row_jenis_hidangan = "TempatLahir";
-    public static final String row_bahan = "Alamat";
+    public static final String row_jenis_hidangan = "Jenis";
+    public static final String row_bahan = "Bahan";
     public static final String row_langkah="Nomor";//Tambahan
     public static final String row_foto = "Foto";
 
